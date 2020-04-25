@@ -1,8 +1,10 @@
 import React, {Component} from 'react';
-import { View } from 'react-native';
+import { View, Text } from 'react-native';
 
 class DetailTransaction extends Compoennt {
-
+    static navigationOptions = {
+        headerShown: false,
+      };
     render () {
         return (
             <>
