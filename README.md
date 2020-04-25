@@ -18,8 +18,7 @@
 1. Download this Project or you can type ``` git clone https://github.com/wahyukhairina/react_native ```
 2. Open app's directory in CMD or Terminal
 3. Type ` npm install ` or ` yarn install `
-4. Type ` react-native run-android `
-5. Login with username: admin, password: admin
+4. Type ` react-native run-android ` or ` react-native run-ios `
 
 ## License
 © [Wahyu Khairina](https://github.com/wahyukhairina/ " Wahyu Khairina")
