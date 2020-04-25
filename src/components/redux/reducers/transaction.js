@@ -15,10 +15,10 @@ const transaction = ( state = initialState, action) => {
                 ...state,
                 isLoading: true
             };
-        case 'GET_HISTORY_FULFILLED':
+        case 'GET_TRANSACTION_FULFILLED':
             return {
                 ...state,
-                transaction: action.payload,
+                transaction: action.payload.data,
                 isLoading: false
             };
         default: 
